@@ -8,7 +8,7 @@ import AlgoCard from '@/components/algo.card'
 
 export default function Home() {
   return (
-    <main className="grid gap-4 grid-cols-4 p-4">
+    <main className="grid gap-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 p-4">
       <Link href="/bubble-sort">
         <AlgoCard
           name="Bubble Sort"
